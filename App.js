@@ -20,6 +20,7 @@ export default class App extends React.Component {
     } else {
       return (
         <View style={styles.container}>
+        <Text> Hello! </Text>
           {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
           <AppNavigator />
         </View>
